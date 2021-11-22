@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form>
+	<table style = "border:3px #cccccc solid;" cellpadding="10" border='1'> 
+
+		<tr> 
+			<th colspan="3" > <label> About -- 108306100</label><br></th>
+		</tr>
+
+		<tr>
+			<td rowspan="3"> <img src = "./picture/roastchicken.jpg" width="110" height="120"><br><label>personal photo</label></td>
+			<td colspan="2"><label>Name: </label>
+					<input name="name" type="text" size="25" maxlength="30"> <br>
+				<label>Gender: </label>
+					<input type="radio" name="Gender" value="Male" checked> Male
+					<input type="radio" name="Gender" value="Female"> Female
+					<input type="radio" name="Gender" value="Other"> Other <br>
+			</td>
+		</tr>
+
+		<tr>
+			<p><td><label>County: </label>
+				<select name ="Country">
+				<option value="Taipei">Taipei</option>
+				<option value="Tainan">Tainan</option>
+				<option value="Taichung">Taichung</option>
+				<option value="Taoyuan">Taoyuan</option></td>
+			<td><label>Birthday: </label>
+				<input type="date"></td>
+		</tr>
+	
+
+		<tr>
+			<td colspan="2"><label>Email: </label>
+				<input name="Email" type="text" size="25" maxlength="30">
+			</td>
+		</tr>
+
+		<tr>
+		<td><label>Hobby</label> </td>
+		<td colspan="2">
+			<input type="checkbox" name="Swimming">Swimming
+			<input type="checkbox" name="Volleyball">Volleyball
+			<input type="checkbox" name="Movie">Movie
+			<input type="checkbox" name="Game">Game
+			<input type="checkbox" name="Sleep">Sleep
+		</td>
+		</tr>
+	
+		<p><td><label>Skill</label></td>
+		<td colspan="2">
+			<input type="checkbox" name="Java">Java
+			<input type="checkbox" name=HTML>HTML
+			<input type="checkbox" name="Python">Python
+			<input type="checkbox" name="Microsoft Office">Microsoft Office
+			<input type="checkbox" name="Premiere">Premiere
+		</td>
+		
+		<tr>
+			<td><label>Say Something</label></td>
+			<td colspan="2">		
+ 			<textarea rows="4" cols="50"> Say something here.</textarea><br>
+			</td>
+		</tr>
+
+		<td colspan="3"><input type ="submit" value="提交">
+			<input type ="reset" value="重設"></td>
+	</table>
+	</form>
+</body>
+</html>
